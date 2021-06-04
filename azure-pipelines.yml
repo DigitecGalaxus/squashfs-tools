@@ -1,0 +1,13 @@
+trigger:
+- master
+
+steps:
+- task: Docker@2
+  inputs:
+    containerRegistry: 'DG Modules Container Registry'
+    repository: 'planetexpress/squashfs-tools'
+    command: 'buildAndPush'
+    Dockerfile: 'Dockerfile'
+    addPipelineData: false
+    tags: 'latest'
+
