@@ -2,6 +2,8 @@
 
 This repository contains a Dockerfile that eases the handling of Squashfs files.
 
+[![Build Status](https://dev.azure.com/digitecgalaxus/SystemEngineering/_apis/build/status/squashfs-tools-image?branchName=master)](https://dev.azure.com/digitecgalaxus/SystemEngineering/_build/latest?definitionId=1164&branchName=master)
+
 ## Prerequisites
 
 - A docker host to build it manually or access to Azure DevOps to build it automatically with the [azure-pipelines.yml](azure-pipelines.yml) file.
