@@ -2,7 +2,7 @@
 
 This repository contains a Dockerfile that eases the handling of Squashfs files.
 
-[![Build Status](https://dev.azure.com/digitecgalaxus/SystemEngineering/_apis/build/status/squashfs-tools-image?branchName=master)](https://dev.azure.com/digitecgalaxus/SystemEngineering/_build/latest?definitionId=1164&branchName=master)
+[![Build Status](https://digitecgalaxus.visualstudio.com/SystemEngineering/_apis/build/status/Github/DigitecGalaxus.squashfs-tools?repoName=DigitecGalaxus%2Fsquashfs-tools&branchName=main)](https://digitecgalaxus.visualstudio.com/SystemEngineering/_build/latest?definitionId=1164&repoName=DigitecGalaxus%2Fsquashfs-tools&branchName=main)
 
 ## Prerequisites
 
