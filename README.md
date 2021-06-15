@@ -1,6 +1,6 @@
 # Squashfs Tools
 
-This repository contains a Dockerfile that eases the handling of Squashfs files.
+This repository contains a Dockerfile that eases the handling of Squashfs files. Read more about squashfs [here](https://tldp.org/HOWTO/SquashFS-HOWTO/whatis.html).
 
 [![Build Status](https://digitecgalaxus.visualstudio.com/SystemEngineering/_apis/build/status/Github/DigitecGalaxus.squashfs-tools?repoName=DigitecGalaxus%2Fsquashfs-tools&branchName=main)](https://digitecgalaxus.visualstudio.com/SystemEngineering/_build/latest?definitionId=1164&repoName=DigitecGalaxus%2Fsquashfs-tools&branchName=main)
 
