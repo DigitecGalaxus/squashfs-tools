@@ -13,13 +13,13 @@ This repository contains a Dockerfile that eases the handling of Squashfs files.
 Build the docker image:
 
 ```sh
-docker image build -t anymodconrst001dg.azurecr.io/planetexpress/squashfs-tools:latest .
+docker image build -t dgpublicimagesprod.azurecr.io/planetexpress/squashfs-tools:latest .
 ```
 
 Use the docker image, e.g. to create a squashfs file from a tar file
 
 ```sh
-docker run -d -v $(pwd)/filesystem.tar:/var/live/filesystem.tar anymodconrst001dg.azurecr.io/planetexpress/squashfs-tools:latest /bin/sh -c "tar2sqfs --quiet filesystem.squashfs < /var/live/filesystem.tar"
+docker run -d -v $(pwd)/filesystem.tar:/var/live/filesystem.tar dgpublicimagesprod.azurecr.io/planetexpress/squashfs-tools:latest /bin/sh -c "tar2sqfs --quiet filesystem.squashfs < /var/live/filesystem.tar"
 ```
 
 ## Contribute
